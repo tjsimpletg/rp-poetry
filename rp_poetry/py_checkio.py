@@ -1,7 +1,7 @@
+ 
 def mult_two(a: int, b: int) -> int:
     
     return a*b 
-
 
 
 def checkio(data: list) -> list:
@@ -12,10 +12,7 @@ def checkio(data: list) -> list:
     return res
 
 
-
-
-
-def flat_list(array):
+def flat_list(array:list) -> list:
     res = []
     for i in array:
         if isinstance(i, list):
