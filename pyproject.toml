@@ -10,6 +10,7 @@ packages = [{include = "src/rp_poetry"}]
 python = "^3.10"
 pytest = "^7.1.3"
 coverage = "^6.5.0"
+pylint = "^2.15.4"
 
 
 [build-system]
