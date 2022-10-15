@@ -14,11 +14,15 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+      - name: checkout init
       - uses: actions/checkout@v2
+
+      - name: set-up python
       - uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Run image
+
+      - name: set-up poetry
         uses: abatilo/actions-poetry@v2
         with:
           poetry-version: ${{ matrix.poetry-version }}
