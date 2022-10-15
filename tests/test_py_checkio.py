@@ -1,4 +1,4 @@
-from rp_poetry.py_checkio import *
+from src.rp_poetry.py_checkio import *
 
 
 def test_mult_two():
