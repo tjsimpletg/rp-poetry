@@ -60,9 +60,6 @@ jobs:
       - name: Check src code with Pylint
         run: poetry run pylint src
 
-      - name: install
-        run: poetry install -E amazon -E docs
-
       - name: Build documentation
         run: |
           mkdir gh-pages
