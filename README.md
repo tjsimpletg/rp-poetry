@@ -1,4 +1,4 @@
 ![coverage badge](./coverage.svg)
-# poetry practice
+# poetry and deploy Sphinx docs on github pages practice
 
 Work of ZHANG
